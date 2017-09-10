@@ -36,6 +36,7 @@ if token:
        # print "range:", range
     results = sp.current_user_top_artists(limit=8)
     for i, item in enumerate(results['items']):
+      #print statement
         print i, " Artist Name: ", item['name'], "   Genre: ", item['genres'][0], "-", item['genres'][1], "-", item['genres'][2]
 
             
