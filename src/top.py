@@ -65,6 +65,6 @@ connection.commit()
 
 
 #----------------- Spotify App Credentials --------------------------
-#   export SPOTIPY_CLIENT_ID='0753f3bad8e64945ac917cf5e1b3d280'
-#   export SPOTIPY_CLIENT_SECRET='df241dc49b8e48c98bb155cfd2a09af3'
-#   export SPOTIPY_REDIRECT_URI='http://findthem.host22.com/'
+#   export SPOTIPY_CLIENT_ID='your-spotify-client-id'
+#   export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
+#   export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
