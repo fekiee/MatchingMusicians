@@ -12,7 +12,7 @@ import simplejson as json
 connection = pymysql.connect(host='localhost',
                       user='root',
                       password='',
-                      db='artists',
+                      db='databasename',
                       charset='utf8mb4',
                       cursorclass=pymysql.cursors.DictCursor)
  
